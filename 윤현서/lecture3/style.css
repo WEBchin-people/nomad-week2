@@ -1,0 +1,12 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color : cornflowerblue;
+    transition : color 0.5s ease-in-out; /*서서히 바뀐다!!*/
+}
+
+.clicked {
+    color : tomato;
+}
