@@ -20,7 +20,7 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
 if (savedUsername === null) {
   loginForm.classList.remove(HIDDEN_CLASSNAME);
   loginForm.addEventListener("submit", onLoginSubmit);
-} // 맨 처음에는 savedUsername이 없기 때문에 Null이라서 실행됨
+} 
 else {
   paintGreetings(savedUsername);
 }
